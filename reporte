@@ -1,0 +1,17 @@
+Entra al proyecto:
+cd movie-api
+Instala dependencias:
+npm install
+Uso
+Inicia el servidor
+El servidor corre en:
+http://localhost:3000
+Endpoints
+POST /users/register → Registrar un usuario
+Body:
+{ "name": "Luis" }
+GET /users → Listar usuarios registrados
+GET /movies → Listar películas disponibles
+POST /loans → Registrar un préstamo de película
+Body:
+{ "userId": 1, "movieId": 2 }
